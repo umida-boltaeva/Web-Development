@@ -7,5 +7,11 @@ hr {
     border-color: grey;
     border-width: 5px;
     width: 5%;
-   
+}
+h1 {
+    color: #66afbf;
+    font-family: Solway;
+}
+h3 {
+    color: #66bfbf;
 }
