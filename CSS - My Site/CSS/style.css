@@ -1,16 +1,8 @@
 body {
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-}
-
-.top-container {
-    background-color: #e0ebe8;
-    position: relative;
-    padding-top: 100px;
-    width: 100%;
-    height: 85vh;
-    display: block;
 }
 
 h1 {
@@ -32,31 +24,6 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
-.pro {
-    text-decoration: underline;
-}
-
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
-}
-
-.bottom-cloud {
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-}
-
-.middle-container {
-    margin-top: 150px;
-}
-
-.personal-img {
-    width: 200px;
-    border-radius: 100%;
-}
-
 hr {
     border-style: none;
     border-top-style: dotted;
@@ -66,19 +33,57 @@ hr {
     margin: 100px auto;
 }
 
-.intro-p {
-    margin-bottom: 100px;
+p {
+    line-height: 2;
 }
 
 a {
     color: #11999E;
 }
 
+.top-container {
+    background-color: #e0ebe8;
+    position: relative;
+    padding-top: 100px;
+    width: 100%;
+    height: 85vh;
+    display: block;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.middle-container {
+    margin-top: 100px;
+}
+
+.personal-img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.intro-p {
+    width: 30%;
+    margin: 30px auto 100px;
+}
+
 .skill-row {
     width: 50%;
     margin: 100px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .coding-img {
@@ -93,26 +98,40 @@ a {
     margin-left: 30px;
 }
 
-.avo-description {
+.contact-message {
     line-height: 2;
-    text-align: center;
+    width: 40%;
+    margin: 40px auto 60px;
 }
 
-.button {
-    background-color: #11999E;
-    border-radius: 3px;
-}
-
-.button a {
-    color: white;
-    font-size: 20px;
+.btn {
+    color: rgb(255, 255, 230);
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    text-shadow: 0px -1px 3px rgba(30, 30, 30, 0.8);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background: rgb(17, 205, 212);
     text-decoration: none;
-    padding: 15px 30px;
 }
 
-.button a:hover {
-    background-color:rgb(8, 246, 195);
+.btn:hover {
+    background: -moz-linear-gradient(90deg, rgb(17, 205, 212) 100%, rgb(43, 196, 173) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(17, 205, 212) 100%, rgb(43, 196, 173) 100%);
+    background: -o-linear-gradient(90deg, rgb(17, 205, 212) 100%, rgb(43, 196, 173) 100%);
+    background: -ms-linear-gradient(90deg, rgb(17, 205, 212) 100%, rgb(43, 196, 173) 100%);
+    background: linear-gradient(0deg, rgb(17, 205, 212) 100%, rgb(43, 196, 173) 100%);
+    -webkit-box-shadow: 0px 2px 5px rgba(50, 50, 50, 0.85);
+    -moz-box-shadow:    0px 2px 5px rgba(50, 50, 50, 0.85);
+    box-shadow:         0px 2px 5px rgba(50, 50, 50, 0.85);
+    text-decoration: none;
+
+}
+
+.bottom-container {
+    margin: 100px auto 0;
 }
 
 
