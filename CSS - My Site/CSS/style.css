@@ -27,7 +27,7 @@ h3 {
 hr {
     border-style: none;
     border-top-style: dotted;
-    border-color: #e0ebe8;
+    border-color: #EAF6F6;
     border-width: 6px;
     width: 5%;
     margin: 100px auto;
@@ -39,6 +39,17 @@ p {
 
 a {
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+i {
+    padding: 5px;
+}
+
+a:hover {
+    color: #EAF6F6;
+    text-decoration: none;
 }
 
 .top-container {
@@ -105,24 +116,20 @@ a {
 }
 
 .btn {
-    color: rgb(255, 255, 230);
-    font-size: 25px;
+    color: #fff;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    padding: 15px;
-    text-shadow: 0px -1px 3px rgba(30, 30, 30, 0.8);
+    padding: 12px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     border-radius: 8px;
-    background: rgb(17, 205, 212);
+    background-color:#11cdd4;
     text-decoration: none;
 }
 
 .btn:hover {
-    background: -moz-linear-gradient(90deg, rgb(17, 205, 212) 100%, rgb(43, 196, 173) 100%);
-    background: -webkit-linear-gradient(90deg, rgb(17, 205, 212) 100%, rgb(43, 196, 173) 100%);
-    background: -o-linear-gradient(90deg, rgb(17, 205, 212) 100%, rgb(43, 196, 173) 100%);
-    background: -ms-linear-gradient(90deg, rgb(17, 205, 212) 100%, rgb(43, 196, 173) 100%);
-    background: linear-gradient(0deg, rgb(17, 205, 212) 100%, rgb(43, 196, 173) 100%);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    background: #30e3cb;
     -webkit-box-shadow: 0px 2px 5px rgba(50, 50, 50, 0.85);
     -moz-box-shadow:    0px 2px 5px rgba(50, 50, 50, 0.85);
     box-shadow:         0px 2px 5px rgba(50, 50, 50, 0.85);
@@ -132,7 +139,17 @@ a {
 
 .bottom-container {
     margin: 100px auto 0;
+    background-color:#66BFBF;
+    padding: 50px 0 20px;
+    width: 100%;
 }
 
+.footer-link {
+    margin: 10px 20px;
+}
 
-
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
