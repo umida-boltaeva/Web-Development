@@ -1,10 +1,10 @@
 var randomNumber1 = Math.floor(Math.random() * 6 ) + 1;
 
-var randonDiceImage = "dice" + randomNumber1 + ".png";
+var randomDiceImage = "dice" + randomNumber1 + ".png";
 
 var image1 = document.querySelectorAll("img")[0];
 
-var randomImageSource = "images/" + randonDiceImage;
+var randomImageSource = "images/" + randomDiceImage;
 
 image1.setAttribute("src", randomImageSource);
 
